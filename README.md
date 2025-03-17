@@ -1,0 +1,3 @@
+This app was designed as an interactive tool to explore and visualize data from the "penguins.csv" dataset. It offers users a user-friendly interface where they can access filtered information about penguins based on species and island characteristics! 
+
+Users can select from dropdown options in the sidebar to filter the dataset by specific species and islands, allowing for dynamic interaction and exploration. The filtered results are then displayed, enabling users to gain insights into the attributes and distribution of different penguin species.
