@@ -8,9 +8,9 @@ Here we reorganized data regarding who are the medalists of the 2008 Olympics in
 
 📊 EDA plots:
 
-plot 1 - heatmap: Medal Types Distribution Across Sports
-![Alt text](https://github.com/lissa-telles-chaves/Telles_python_portfolio/blob/8cc17ba66d200fec4ae199a72a40c155aa2ca6aa/TidyData-Project/p1heatmap.png)
+plot 1 - heatmap: Representation of male and female athletes across 10 sports
+![Alt text](https://github.com/lissa-telles-chaves/Telles_python_portfolio/blob/63742ec03972da48551988d79950eb8b7c3ab15f/TidyData-Project/malefemalerepsports.png)
 
-plot 2 - barplot: Top 10 Athletes by Number of Medals
+plot 2 - stacked bar plot: Number of Medals by Sport
 
-![Alt text](https://github.com/lissa-telles-chaves/Telles_python_portfolio/blob/a7b8729efd91b774882b3c47e1ad3d9135770bef/TidyData-Project/p2barplot.png)
+![Alt text](https://github.com/lissa-telles-chaves/Telles_python_portfolio/blob/63742ec03972da48551988d79950eb8b7c3ab15f/TidyData-Project/stackedbarplot_medalxsport.png)
