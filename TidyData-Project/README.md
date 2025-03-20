@@ -1,11 +1,11 @@
 # Tidy Data:
 Here we reorganized data regarding who are the medalists of the 2008 Olympics into a more digestible dataframe and then proceeded to make an EDA to further help us understand the data.
-## Tidy Data Principles Sparknotes:
+## 📖 Tidy Data Principles Sparknotes:
 In portuguese there is a famous song from the 2000's which says that everything must be in their respectives space(link: https://open.spotify.com/track/15llrnGADRZYnA39AYQHIL?si=ca26f20223094db8 ), in many ways, the principles lead us to a similar conclusion as it states that:
 - Each variable forms a column
 - Each observation forms a row
 - Each type of observational unit forms a table
-## Instructions:
+## 👩🏻‍🏫 Instructions:
 To run the notebook, I recommend following the order it is presented in, running all the previous code before the markdown cell with the message "begin EDA". If you desire to look only at one of the plots, there are no dependencies issues there, thus, if you wish to run only Plot 1 or only Plot 2 you will face no issues whatsover.
 However, one dependency in this notebook is the need of having all the following libraries to guarantee the functionality of the code. 
 
