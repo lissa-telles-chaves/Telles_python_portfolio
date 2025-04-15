@@ -22,29 +22,29 @@ NER stands for Named Entity Recognition.
              that focuses on identifying and categorizing important "named entities" within a piece of text.
 """)
 # Sidebar for inputs 
-st.header("Step 1: Input your text")
-input_method = st.radio("Choose input method:", ["Manual entry", "Upload .txt file"])
+st.sidebar.header("Step 1: Input your text")
+input_method = st.sidebar.radio("Choose input method:", ["Manual entry", "Upload .txt file"])
 
 
 text = ""
 if input_method == "Manual entry":
-   text = st.text_area("Enter your text here:", height=200)
+   text = st.sidebar.text_area("Enter your text here:", height=200)
 else:
-   uploaded_file = st.file_uploader("Upload a text file", type=["txt"])
+   uploaded_file = st.sidebar.file_uploader("Upload a text file", type=["txt"])
    if uploaded_file:
        text = uploaded_file.read().decode("utf-8")
 
 
 # Sample text option
 if not text:
-   if st.checkbox("Use sample text"):
+   if st.sidebar.checkbox("Use sample text"):
        text = "I love Elements of Computing II. Dr. Smiley is a great professor!"
 
 
 # Sidebar for custom entity patterns 
-st.header("Step 2: Define Custom Entities")
-st.markdown("Enter patterns as JSON list (e.g., `[{'label': 'CEO', 'pattern': 'Elon Musk'}]`)")
-pattern_input = st.text_area("Custom patterns:", value="""[
+st.sidebar.header("Step 2: Define Custom Entities")
+st.sidebar.markdown("Enter patterns as JSON list (e.g., `[{'label': 'CEO', 'pattern': 'Elon Musk'}]`)")
+pattern_input = st.sidebar.text_area("Custom patterns:", value="""[
  {"label": "CLASS", "pattern": "Elements of Computing II"},
  {"label": "PROFESSOR", "pattern": "Dr.Smiley"}
 ]""", height=150)
