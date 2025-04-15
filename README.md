@@ -3,6 +3,7 @@ Welcome! This repository shows the final deliverables I have for my elements of 
 - First App:
   https://github.com/lissa-telles-chaves/Telles_python_portfolio/tree/main/first%20app
 - Tidy Data: https://github.com/lissa-telles-chaves/Telles_python_portfolio/tree/main/TidyData-Project
+-  NER Streamlit App: https://github.com/lissa-telles-chaves/Telles_python_portfolio/tree/main/NERStreamlitApp
   
 ## First App
 The app is an interactive tool to explore and visualize data from the "penguins.csv" dataset. It offers users an interface where they can access filtered information about penguins based on species and island characteristics!
