@@ -14,3 +14,7 @@ https://github.com/lissa-telles-chaves/Telles_python_portfolio/tree/main/first%2
 Here we reorganized data regarding who are the medalists of the 2008 Olympics into a more digestible dataframe and then proceeded to make an EDA to further help us understand the data. 
 
 https://github.com/lissa-telles-chaves/Telles_python_portfolio/tree/main/TidyData-Project
+
+## NER Streamlit App
+create an app where users can input a text, and the app will highlight entities in the output according to your customized labels utilizing spaCy approach to Named Entity Recognition.
+https://github.com/lissa-telles-chaves/Telles_python_portfolio/tree/main/NERStreamlitApp
