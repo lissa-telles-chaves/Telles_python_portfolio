@@ -19,3 +19,6 @@ https://github.com/lissa-telles-chaves/Telles_python_portfolio/tree/main/TidyDat
 ## NER Streamlit App
 create an app where users can input a text, and the app will highlight entities in the output according to your customized labels utilizing spaCy approach to Named Entity Recognition.
 https://github.com/lissa-telles-chaves/Telles_python_portfolio/tree/main/NERStreamlitApp
+### Check out the app: https://tellespythonportfolio-dczpdlzzrgbcbbvmekeb2f.streamlit.app/
+
+
