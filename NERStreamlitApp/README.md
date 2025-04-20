@@ -6,7 +6,7 @@ create an app where users can input a text, and the app will highlight entities 
     spaCy is a Python library for Natural Language Processing (NLP). 
     spaCy's approach to Named Entity Recognition (NER) is uses statistical and neural network-based that have learned to identify and categorize important things (named entities) in text by looking at word patterns and context, often using advanced techniques like neural networks. You can also teach it to recognize new or specific things you care about.
 ## Tutorial:
-[▶️ Watch the demo on Google Drive]([https://drive.google.com/file/d/FILE_ID/view?usp=sharing](https://drive.google.com/file/d/1yKfpmN7WpO1v7xVUc2tcKHa_bEs-w3EE/view?usp=sharing)
+▶️ Watch the demo on Google Drive [https://drive.google.com/file/d/FILE_ID/view?usp=sharing](https://drive.google.com/file/d/1yKfpmN7WpO1v7xVUc2tcKHa_bEs-w3EE/view?usp=sharing)
  #### 💡 How to Use This App
 
 1. **Choose your input method** from the sidebar:
