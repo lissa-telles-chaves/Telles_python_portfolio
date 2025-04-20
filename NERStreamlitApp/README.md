@@ -7,40 +7,45 @@ create an app where users can input a text, and the app will highlight entities 
     spaCy's approach to Named Entity Recognition (NER) is uses statistical and neural network-based that have learned to identify and categorize important things (named entities) in text by looking at word patterns and context, often using advanced techniques like neural networks. You can also teach it to recognize new or specific things you care about.
 ## Tutorial:
 [▶️ Watch the demo on Google Drive]([https://drive.google.com/file/d/FILE_ID/view?usp=sharing](https://drive.google.com/file/d/1yKfpmN7WpO1v7xVUc2tcKHa_bEs-w3EE/view?usp=sharing)
-### 💡 How to Use This App
-1- Choose your input method from the sidebar:
-        - Manually type or paste your text.
-        - upload a .txt file.
-        - Check "Use sample text" if you want to explore without uploading anything.
+ #### 💡 How to Use This App
 
-2- Define your custom entity patterns:
-Use JSON format:
+1. **Choose your input method** from the sidebar:
+   - Manually type or paste your text
+   - Or upload a `.txt` file
 
-json
-Copy
-Edit
-[
-  { "label": "LABEL_NAME", "pattern": "Text to detect" }
-]
-Example:
+2. *(Optional)* Check **"Use sample text"** if you want to explore without uploading anything
 
-json
-Copy
-Edit
-[
-  { "label": "FOUNDER", "pattern": "Steve Jobs" },
-  { "label": "COMPANY", "pattern": "SpaceX" }
-]
-3- Click “Run NER with Custom Patterns” to apply your rules to the text.
+3. **Define your custom entity patterns**:
+   - Use JSON format:  
+     ```json
+     [
+       { "label": "LABEL_NAME", "pattern": "Text to detect" }
+     ]
+     ```
+   - Example:
+     ```json
+     [
+       { "label": "FOUNDER", "pattern": "Steve Jobs" },
+       { "label": "COMPANY", "pattern": "SpaceX" }
+     ]
+     ```
 
-4- View your results:
-        - Entities will be highlighted in the text using different colors.
-        - A list of detected entities and their labels will also be displayed below the visualization.
+4. **Click “Run NER with Custom Patterns”** to apply your rules to the text
 
-## libraries utilized:
+5. **View your results**:
+   - Entities will be highlighted in color
+   - A list of detected entities and their labels is displayed below
+
+## 🚀 Features
+- Input your own text or upload a `.txt` file
+- Use sample text to quickly try the app
+- Define custom entity labels and patterns in JSON
+- Visualize detected entities with colors using spaCy’s `displacy`
+- See a list of all entities and their types
+## 📚 libraries utilized:
 - spaCy
 - streamlit
-## References: 
+## ✍️ References: 
 - https://spacy.io/usage
 - https://spacy.io/usage/linguistic-features#named-entities
 - https://spacy.io/api/entityruler
